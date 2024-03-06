@@ -1,3 +1,4 @@
+/* adding colors to be used  */
 :root {
     --dk-violet: hsl(268, 75%, 9%);
     --lt-violet: hsl(268, 47%, 21%);
@@ -10,6 +11,7 @@
     --vb-cyan2: hsl(177, 92%, 70%);
     --dk-text: hsl(198, 20%, 13%);
 }
+
 
 * {
     margin: 0;
@@ -169,12 +171,6 @@ button.copy-btn .copy-tooltip.active {
     z-index: 1;
 }
 
-/* 
-.slider:focus{
-    outline: 0.3rem solid var(--vb-yellow);
-    border: 0.3rem solid var(--vb-yellow);
-} */
-
 .slider::-webkit-slider-thumb {
     appearance: none;
     width: 3.2rem;
@@ -182,8 +178,6 @@ button.copy-btn .copy-tooltip.active {
     border-radius: 50%;
     background: var(--vb-yellow);
     cursor: pointer;
-    /* margin-top: -3px; */
-    /*You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
     box-shadow: 0px 0px 20px 0px rgba(255, 229, 61, 0.50);
     transition: all 100ms ease-in;
     position: relative;
@@ -203,8 +197,6 @@ button.copy-btn .copy-tooltip.active {
     border-radius: 50%;
     background: var(--vb-yellow);
     cursor: pointer;
-    /* margin-top: -3px; */
-    /*You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
     box-shadow: 0px 0px 20px 0px rgba(255, 229, 61, 0.50);
     transition: all 100ms ease-in;
     position: relative;
